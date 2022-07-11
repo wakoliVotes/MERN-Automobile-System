@@ -19,9 +19,7 @@ require('./routes/homeOlderCars.js')(app);
 
 
   //Connection to database - REPLACE uri with your own database, cluster, username, and password
-  // const uri = 'mongodb+srv://javascriptms:1234@cluster0.8nj4m.mongodb.net/autosDatabase'
   const uri = process.env.MONGODBCONNECTION;
-  // const uri = `mongodb+srv://${process.env.MONGODB_USERNAME}:${process.env.MONGODB_PASSWORD}@morales-cluster-twasg.mongodb.net/task6?retryWrites=true`;
   mongoose.Promise = global.Promise;
   
   mongoose.connect(uri, {
