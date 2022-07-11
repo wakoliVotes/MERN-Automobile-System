@@ -17,9 +17,12 @@ const HomeProfile = () => {
           <NavItem>
             <Logout type='submit' className='btnlog' />
           </NavItem>
+          <NavItem>
+            About Us
+          </NavItem>
         </Navbar>
         <CarsList />               
       </div>
   )
 }
-export default HomeProfile
+export default HomeProfile;
