@@ -6,12 +6,13 @@
     left: 0;
     display: flex;
     flex-direction: column;
-    width: 40rem;
+    width: 30rem;
     height: max-content;
     align-items: flex-start;
     padding: 0.5rem;
-    background-color: black;
+    background-color: rgb(22, 209, 12);
     color: white;
+    border-radius: 0 0 30px 30px;
   }
 }
 
@@ -44,8 +45,8 @@ body{
   position: relative;
   left: 35rem;
   border-radius: 10px;
-  background-color: rgb(60, 67, 62);
-  padding: 10px;
+  background-color: rgb(37, 37, 135);
+  padding: 5px;
 }
 .homeCarList {
   justify-items: center;

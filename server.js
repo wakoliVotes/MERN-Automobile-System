@@ -18,7 +18,7 @@ require('./routes/updateByOwner.js')(app);
 require('./routes/homeOlderCars.js')(app);
 
 
-  //Connection to database - REPLACE uri with your own database, cluster, username, and password
+  //Connection to database - saved in .env file
   const uri = process.env.MONGODBCONNECTION;
   mongoose.Promise = global.Promise;
   
@@ -33,7 +33,7 @@ require('./routes/homeOlderCars.js')(app);
       process.exit();
   });
   mongoose.connection.once('open', function() {
-      console.log("Successfully connected to the Autos Database");
+      console.log("Successfully connected to the MERNAuto Database");
   })
 
 const PORT = process.env.PORT || 5000;

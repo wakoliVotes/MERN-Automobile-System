@@ -1,6 +1,6 @@
 import React from 'react';
 import { useAuth0 } from '@auth0/auth0-react';
-import { Button, Dropdown } from 'react-bootstrap';
+import { Button, Navbar, NavItem } from 'react-bootstrap';
 import DropdownOptions from './DropdownOptions';
 import { BrowserRouter, Route } from 'react-router-dom';
 import AddMenu from './AddMenu';
@@ -14,9 +14,14 @@ const Logout = () => {
     return (
         isAuthenticated && (
             <>
-                <p className='loggedIn'>Hi, you are in Kings Autos Admin panel, welcome!</p>
-                {/* Log Out Button for Admin */}
-                <Button onClick={() => logout()}>Log Out</Button>
+                <Navbar>
+                    <NavItem>
+                        Hi, you are in Admin panel, welcome!
+                    </NavItem>
+                    <NavItem style={{ textAlign:'right', marginLeft: '160px' }}>
+                        <Button onClick={() => logout()}>Log Out</Button>
+                    </NavItem>
+                </Navbar>
                 <div className='actionMsg'>
                     <BrowserRouter>
                         <nav className="navbar navbar-expand-lg fixed-top" id="sideNav">
@@ -27,10 +32,8 @@ const Logout = () => {
                             <Route path="/DeleteMenu" component={DeleteMenu} />
                             <Route path="/CarsList" component={CarsList} />
                         </nav>
-                    </BrowserRouter>                    
-                </div>
-                {/* Log Out Button for Admin */}
-                <Button onClick={() => logout()}>Log Out</Button>
+                    </BrowserRouter>
+                </div>                
             </>
         )
     )
