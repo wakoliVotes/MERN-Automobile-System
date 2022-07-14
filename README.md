@@ -1,17 +1,20 @@
 ## MERN Automobile System
+Authorization Screen:
+[Auth0]()
+
 Home Page:
 ![home](![image](https://user-images.githubusercontent.com/77758884/178914860-6e5ac240-6981-4a52-94e1-e9dc5a4aa848.png))
 
 Add Menu:
 ![addmenu](![image](https://user-images.githubusercontent.com/77758884/178915023-b57eb3d6-cb71-4656-9161-f58518732020.png)
 
-Menu to update one:
+Update One Menu:
 ![update](![image](https://user-images.githubusercontent.com/77758884/178915130-d62b2cc9-620f-40cd-bcb4-f115e024ebd8.png)
 
-Menu to update owner on more than one document:
+Menu to update owner on more than one Car:
 ![updatemany](![image](https://user-images.githubusercontent.com/77758884/178915221-2879fa06-f2d0-45c9-846f-d4ab4920fc2d.png)
 
-Menu to delete a specific document based on registration ID:
+Menu to Delete a specific document based on Regn. No:
 ![delete](![image](https://user-images.githubusercontent.com/77758884/178915311-2a939c24-3228-4d4d-81ae-e70decf225d4.png)
 
 ## Project Documentation
