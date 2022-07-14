@@ -17,10 +17,16 @@ Menu to update owner on more than one Car:
 Menu to Delete a specific document based on Regn. No:
 ![delete](![image](https://user-images.githubusercontent.com/77758884/178915311-2a939c24-3228-4d4d-81ae-e70decf225d4.png)
 
+About
+[About]()
+
+Footer
+![Footer]()
+
 ## Project Documentation
 ### Uses
 
-1. Home - For any stored cars in the database, the car list loads everything existing at localhost: 3000
+1. Home - For all stored cars in the database, the car list loads everything existing at localhost: 3000
 
 2. Add - Opens a menu to add a new document to your database.
 
