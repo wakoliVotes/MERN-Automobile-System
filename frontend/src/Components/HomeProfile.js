@@ -1,28 +1,54 @@
+import { useAuth0 } from '@auth0/auth0-react';
 import React from 'react';
-import { Navbar, NavItem } from 'react-bootstrap';
+import { Navbar, NavItem, Nav } from 'react-bootstrap';
 import '../App.css';
 import CarsList from './CarsList';
 import Login from './Login';
 import Logout from './Logout';
+import { BrowserRouter, Route } from 'react-router-dom';
+import AddMenu from './AddMenu';
+import DeleteMenu from './DeleteMenu';
+import UpdateMenu from './UpdateMenu';
+import UpdateManyMenu from './UpdateManyMenu';
+import DropdownOptions from './DropdownOptions';
 
 const HomeProfile = () => {
-  return (
-      <div className='homeProfile'>
-        <h1 className='bannerTag'>Welcome to Kings Autos</h1>
-        {/* <h4 className='slogan'>Home of Best Automobile</h4> */}
-        <Navbar>
+  const { isAuthenticated } = useAuth0();
+  return (    
+    isAuthenticated && (
+      <>
+        <h1 className='text-center'>Kings Auto</h1>
+        <h5 className='text-center light'>Home of Best Cars</h5>
+
+        <Navbar className='navbar justify-content-end' >
           <NavItem>
-            <Login type='submit' className='btnlog' />
+            <Login />
           </NavItem>
           <NavItem>
-            <Logout type='submit' className='btnlog' />
+            <Logout />
           </NavItem>
           <NavItem>
-            About Us
+            <Nav.Link href='/About'>
+              About
+            </Nav.Link>
           </NavItem>
         </Navbar>
-        <CarsList />               
-      </div>
+        <div className='actionMsg'>
+          <BrowserRouter>
+            <nav className="navbar navbar-expand-lg fixed-top" id="sideNav">
+              <DropdownOptions />
+              <Route path="/AddMenu" component={AddMenu} />
+              <Route path="/UpdateMenu" component={UpdateMenu} />
+              <Route path="/UpdateManyMenu" component={UpdateManyMenu} />
+              <Route path="/DeleteMenu" component={DeleteMenu} />
+              <Route path="/CarsList" component={CarsList} />
+            </nav>
+          </BrowserRouter>
+        </div>
+        <CarsList />
+
+      </>
+    )
   )
 }
 export default HomeProfile;

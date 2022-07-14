@@ -65,7 +65,7 @@ class CarsList extends React.Component {
             )
         });
         return (
-            <>
+            <div className='carCollection'>
                 <div className="table-container">
                     <h1>Vehicle Collection</h1>
                     <table>
@@ -83,9 +83,9 @@ class CarsList extends React.Component {
                             {carTableContent}
                         </tbody>
                     </table>
-                    <button className="filterButton" onClick={this.handleFilter}>Older Cars Only</button>
+                    <button className="filterButton" onClick={this.handleFilter}>Show Cars Before 2015 Only</button>
                 </div>
-            </>
+            </div>
         );
     }
 }

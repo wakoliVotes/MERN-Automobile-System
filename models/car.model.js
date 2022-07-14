@@ -1,7 +1,9 @@
 const mongoose = require('mongoose');
 
 const carSchema = mongoose.Schema({
-    registration: { type: String, required: true },
+    registration: {
+        type: String,
+        required: true },
     make: {
         type: String,
         required: true
