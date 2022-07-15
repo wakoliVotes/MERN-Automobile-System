@@ -39,10 +39,10 @@ require('./routes/homeOlderCars.js')(app);
   })
 
 if(process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, 'build')));
+  app.use(express.static(path.join(__dirname, 'frontend', 'build')));
 
   app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'))
+    res.sendFile(path.join(__dirname, 'frontend', 'index.html'))
   });
 }
 
