@@ -13,7 +13,6 @@ const HomeNotAuth = () => {
       <>
         <h1 className='text-center'>Kings Auto</h1>
         <h5 className='text-center light'>Home of Best Cars</h5>
-
         <Navbar className='navbar justify-content-end' >
           <NavItem>
             <Login />
