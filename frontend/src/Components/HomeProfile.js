@@ -15,7 +15,7 @@ import DropdownOptions from './DropdownOptions';
 const HomeProfile = () => {
   const { isAuthenticated } = useAuth0();
   return (    
-    isAuthenticated && (
+    !isAuthenticated && (
       <>
         <h1 className='text-center'>Kings Auto</h1>
         <h5 className='text-center light'>Home of Best Cars</h5>
@@ -46,7 +46,6 @@ const HomeProfile = () => {
           </BrowserRouter>
         </div>
         <CarsList />
-
       </>
     )
   )

@@ -6,7 +6,9 @@ import HomeProfile from './Components/HomeProfile';
 class App extends Component {
   render() {
     return (
+      <>
       <HomeProfile />
+      </>
     )
   }
 }

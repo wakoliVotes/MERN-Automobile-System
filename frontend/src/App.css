@@ -36,7 +36,7 @@ h1, h5 {
 body{
   /* width: fit-content; */
   height: fit-content;
-  background: url("../src/Components/img/luxuryCover.jpg") center top no-repeat;
+  background: url("../src/Components/img/HondaCivicCoupe2019.jpg") center top no-repeat;
   background-size: cover;
 }
 
