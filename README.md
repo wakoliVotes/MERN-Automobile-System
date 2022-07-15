@@ -1,8 +1,11 @@
 ## MERN Automobile System
+Home Page (Not Signed In):
+image.png
+
 Authorization Screen:
 [Auth0]()
 
-Home Page:
+Home Page (Signed In):
 ![image](https://user-images.githubusercontent.com/77758884/178914860-6e5ac240-6981-4a52-94e1-e9dc5a4aa848.png)
 
 Add Menu:
