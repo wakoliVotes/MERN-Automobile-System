@@ -1,6 +1,6 @@
 ## MERN Automobile System
 Home Page (Not Signed In):
-image.png
+![image](https://user-images.githubusercontent.com/77758884/179178290-9d8771c4-1f13-4494-9f6b-a91a476e799c.png)
 
 Authorization Screen:
 [Auth0]()
