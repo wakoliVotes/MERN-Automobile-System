@@ -20,11 +20,11 @@
 **Menu to Delete a specific document based on Regn. No:**
 ![image](https://user-images.githubusercontent.com/77758884/178915311-2a939c24-3228-4d4d-81ae-e70decf225d4.png)
 
-**About**
+<!-- **About**
 [About]()
 
 **Footer**
-![Footer]()
+![Footer]() -->
 
 ## Project Documentation
 ### Uses
@@ -48,4 +48,4 @@
 5. Auth0 for Authentication
 
 ### Deployment
-- Check the web app at [Link]()
+- **Heroku**, check the web app at [Link](https://mernautosystem.herokuapp.com/)
