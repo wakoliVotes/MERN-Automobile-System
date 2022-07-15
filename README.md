@@ -1,6 +1,6 @@
 ## MERN Automobile System
 **Home Page (Not Signed In):**
-![image](https://user-images.githubusercontent.com/77758884/179178290-9d8771c4-1f13-4494-9f6b-a91a476e799c.png)
+![image](https://user-images.githubusercontent.com/77758884/179292472-b1f8dafd-dd95-4401-a31b-cf82ab6781e2.png)
 
 **Authorization Screen:**
 ![image](https://user-images.githubusercontent.com/77758884/179180334-5c9f3fe1-656f-4f74-90f7-9abf26b6e0ee.png)
