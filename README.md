@@ -3,7 +3,7 @@
 ![image](https://user-images.githubusercontent.com/77758884/179178290-9d8771c4-1f13-4494-9f6b-a91a476e799c.png)
 
 **Authorization Screen:**
-[Auth0]()
+![image](https://user-images.githubusercontent.com/77758884/179180334-5c9f3fe1-656f-4f74-90f7-9abf26b6e0ee.png)
 
 **Home Page (Signed In):**
 ![image](https://user-images.githubusercontent.com/77758884/178914860-6e5ac240-6981-4a52-94e1-e9dc5a4aa848.png)
