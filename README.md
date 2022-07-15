@@ -1,29 +1,29 @@
 ## MERN Automobile System
-Home Page (Not Signed In):
+**Home Page (Not Signed In):**
 ![image](https://user-images.githubusercontent.com/77758884/179178290-9d8771c4-1f13-4494-9f6b-a91a476e799c.png)
 
-Authorization Screen:
+**Authorization Screen:**
 [Auth0]()
 
-Home Page (Signed In):
+**Home Page (Signed In):**
 ![image](https://user-images.githubusercontent.com/77758884/178914860-6e5ac240-6981-4a52-94e1-e9dc5a4aa848.png)
 
-Add Menu:
+**Add Menu:**
 ![image](https://user-images.githubusercontent.com/77758884/178915023-b57eb3d6-cb71-4656-9161-f58518732020.png)
 
-Update One Menu:
+**Update One Menu:**
 ![image](https://user-images.githubusercontent.com/77758884/178915130-d62b2cc9-620f-40cd-bcb4-f115e024ebd8.png)
 
-Menu to update owner on more than one Car:
+**Menu to update owner on more than one Car:**
 ![image](https://user-images.githubusercontent.com/77758884/178915221-2879fa06-f2d0-45c9-846f-d4ab4920fc2d.png)
 
-Menu to Delete a specific document based on Regn. No:
+**Menu to Delete a specific document based on Regn. No:**
 ![image](https://user-images.githubusercontent.com/77758884/178915311-2a939c24-3228-4d4d-81ae-e70decf225d4.png)
 
-About
+**About**
 [About]()
 
-Footer
+**Footer**
 ![Footer]()
 
 ## Project Documentation
