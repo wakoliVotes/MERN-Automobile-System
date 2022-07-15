@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c5224401.chunk.css",
+    "main.js": "/static/js/main.9c6fdc61.chunk.js",
+    "main.js.map": "/static/js/main.9c6fdc61.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bce919bb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bce919bb.js.map",
+    "static/css/2.58570433.chunk.css": "/static/css/2.58570433.chunk.css",
+    "static/js/2.ce5fe750.chunk.js": "/static/js/2.ce5fe750.chunk.js",
+    "static/js/2.ce5fe750.chunk.js.map": "/static/js/2.ce5fe750.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.becb1bbca2e9817b1955b3e6702da0b9.js": "/precache-manifest.becb1bbca2e9817b1955b3e6702da0b9.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.58570433.chunk.css.map": "/static/css/2.58570433.chunk.css.map",
+    "static/css/main.c5224401.chunk.css.map": "/static/css/main.c5224401.chunk.css.map",
+    "static/js/2.ce5fe750.chunk.js.LICENSE.txt": "/static/js/2.ce5fe750.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/HondaCivicCoupe2019.d288966c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bce919bb.js",
+    "static/css/2.58570433.chunk.css",
+    "static/js/2.ce5fe750.chunk.js",
+    "static/css/main.c5224401.chunk.css",
+    "static/js/main.9c6fdc61.chunk.js"
+  ]
+}
