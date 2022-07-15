@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import Dropdown from 'react-bootstrap/Dropdown';
 
 class DropdownOptions extends Component {
-
-
     render() {
         return (
             <Dropdown>
@@ -20,5 +18,4 @@ class DropdownOptions extends Component {
         )
     }
 };
-
 export default DropdownOptions;

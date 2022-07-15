@@ -14,7 +14,7 @@ import DropdownOptions from './DropdownOptions';
 
 const HomeProfile = () => {
   const { isAuthenticated } = useAuth0();
-  return (    
+  return (
     !isAuthenticated && (
       <>
         <h1 className='text-center'>Kings Auto</h1>

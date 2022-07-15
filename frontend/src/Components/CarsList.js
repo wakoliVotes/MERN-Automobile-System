@@ -9,7 +9,6 @@ class CarsList extends React.Component {
             cars: []
         }
     };
-
     componentDidMount() {
         console.log('componentDidMount');
         fetch("/cars")
@@ -28,7 +27,6 @@ class CarsList extends React.Component {
                     });
                 })
     }
-
     handleFilter() {
         console.log('results are filtered');
         fetch("/cars/older")
@@ -54,13 +52,13 @@ class CarsList extends React.Component {
             return (
                 <>
                     <tr key={car.registration}>
-                    <td>{car.image}</td>
-                    <td>{car.registration}</td>
-                    <td>{car.make}</td>
-                    <td>{car.model}</td>
-                    <td>{car.year}</td>
-                    <td>{car.owner}</td>
-                </tr>
+                        <td>{car.image}</td>
+                        <td>{car.registration}</td>
+                        <td>{car.make}</td>
+                        <td>{car.model}</td>
+                        <td>{car.year}</td>
+                        <td>{car.owner}</td>
+                    </tr>
                 </>
             )
         });
