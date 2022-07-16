@@ -41,11 +41,11 @@
 
 ### Project Requirements
 
-1. MongoDB
-2. Express.js
-3. React
-4. Node.js
-5. Auth0 for Authentication
+1. **MongoDB**
+2. **Express.js**
+3. **React.js**
+4. **Node.js**
+5. **Auth0** for Authentication
 
 ### Deployment
 - **Heroku**, check the web app at [Link](https://mernautosystem.herokuapp.com/)

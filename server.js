@@ -37,7 +37,8 @@ require('./routes/homeOlderCars.js')(app);
   mongoose.connection.once('open', function() {
       console.log("Successfully connected to the MERNAuto Database");
   })
-
+  
+// For Heroku deployment on heroku, build is deployed and prefix is frontend, name of React JS app file
 if(process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, 'frontend', 'build')));
 
@@ -46,5 +47,5 @@ if(process.env.NODE_ENV === 'production') {
   });
 }
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, '0.0.0.0', console.log(`Server is running on Port ${PORT}`));
+const port = process.env.PORT || 5000;
+app.listen(port, '0.0.0.0', console.log(`Server is running on Port ${port}`));

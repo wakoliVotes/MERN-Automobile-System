@@ -1,6 +1,6 @@
 import { useAuth0 } from '@auth0/auth0-react';
 import React from 'react';
-import { Navbar, NavItem, Nav } from 'react-bootstrap';
+import { Navbar, NavItem } from 'react-bootstrap';
 import '../App.css';
 import CarsList from './CarsList';
 import Login from './Login';
@@ -26,11 +26,6 @@ const HomeProfile = () => {
           </NavItem>
           <NavItem>
             <Logout />
-          </NavItem>
-          <NavItem>
-            <Nav.Link href='/About'>
-              About
-            </Nav.Link>
           </NavItem>
         </Navbar>
         <div className='actionMsg'>

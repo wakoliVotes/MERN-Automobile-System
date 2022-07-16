@@ -9,7 +9,9 @@ class App extends Component {
     return (
       <>
       <HomeProfile />
-      <HomeNotAuth />
+      <HomeNotAuth />  
+    
+     
       </>
     )
   }
