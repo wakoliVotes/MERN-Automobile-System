@@ -44,7 +44,7 @@ body{
   background-size: cover;
   margin: 60px;
   color: white;
-  border-radius: 15px;
+  border-radius: 15px;  
 }
 #aboutUs h5, h6 {
   color: rgb(72, 0, 255);
@@ -55,8 +55,12 @@ body{
   margin-left: 30%;
   border-radius: 0 25px;
 }
+#aboutUs p {
+  padding: 0 30px;
+  /* text-align: left; */
+}
 .ourservices {
-  margin: 0 40px;
+  margin: 0 300px;
   justify-content: center;
   color: black;
   font-size: 20px;

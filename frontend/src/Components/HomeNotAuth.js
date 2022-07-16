@@ -73,7 +73,7 @@ const HomeNotAuth = () => {
             <ListGroup>
               <ListGroup.Item variant='primary'>Car importation from overseas</ListGroup.Item>
               <ListGroup.Item>Car's inspection and valuations</ListGroup.Item>
-              <ListGroup.Item variant='primary'>Car's transportation from one region to another, by sea</ListGroup.Item>
+              <ListGroup.Item variant='warning'>Car's transportation from one region to another, by sea</ListGroup.Item>
               <ListGroup.Item>Car's trade ins for specific models and makes since 2015</ListGroup.Item>
               <ListGroup.Item variant='primary'>Car hiring for special occasions across specific timeListGroup.Itemnes</ListGroup.Item>
               <ListGroup.Item>Car buying for specific models and manufacture years</ListGroup.Item>
