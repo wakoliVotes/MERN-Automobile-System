@@ -20,10 +20,10 @@
 **Menu to Delete a specific document based on Regn. No:**
 ![image](https://user-images.githubusercontent.com/77758884/178915311-2a939c24-3228-4d4d-81ae-e70decf225d4.png)
 
-<!-- **About**
-[About]()
+**About**
+![image](https://user-images.githubusercontent.com/77758884/179353472-48b241ae-21d5-47b4-badb-e9ee484c8bd5.png)
 
-**Footer**
+<!-- **Footer**
 ![Footer]() -->
 
 ## Project Documentation
