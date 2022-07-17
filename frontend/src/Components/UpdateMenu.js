@@ -63,11 +63,11 @@ render(){
     else {
       return(
         <div className="App">
-          <h1>Update One Car:</h1>
+          <h2>Update One Car:</h2>
         <div className="FormContainer">
               <Form onSubmit={this.handleSubmit}>
                 <Form.Group as={Row} controlId="carRegistration">
-                  <Form.Label column sm={4}>Registration ID:</Form.Label>
+                  <Form.Label column sm={4}>Regn. No.:</Form.Label>
                   <Col sm="8">
                   <Form.Control required type="text" placeholder="Enter Registration ID" onChange={this.handleRegistrationChange}></Form.Control>
                   <Form.Text className="text-white">Regn. No. needed to modify</Form.Text>

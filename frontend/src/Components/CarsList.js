@@ -53,17 +53,14 @@ class CarsList extends React.Component {
             return (
                 <div className='cardpart'>
                     <Card style={{ width: '18rem' }} >
-                    <Card.Body style={{margin: '0'}}>
                     <Card.Title key={car.registration}>
-                        {/* <Card.Text>Image {car.image}</Card.Text> */}
-                        <Card.Img variant="top" src={image} alt='car image'/>
-                        <Card.Text>Regn. No: {car.registration}</Card.Text>
-                        <Card.Text>Make: {car.make}</Card.Text>
-                        <Card.Text>Model: {car.model}</Card.Text>
-                        <Card.Text>Year: {car.year}</Card.Text>
-                        <Card.Text>Owner: {car.owner}</Card.Text>
+                        <Card.Img variant="top" src={image} alt='car image' style={{paddingBottom: '10px'}}/>
+                        <Card.Text><span style={{color: 'red'}}>Regn No:</span> {car.registration}</Card.Text>
+                        <Card.Text><span style={{color: 'blue'}}>Make:</span> {car.make}</Card.Text>
+                        <Card.Text><span style={{color: 'blue'}}>Model:</span> {car.model}</Card.Text>
+                        <Card.Text><span style={{color: 'blue'}}>Year:</span> {car.year}</Card.Text>
+                        <Card.Text><span style={{color: 'blue'}}>Owner:</span> {car.owner}</Card.Text>
                     </Card.Title>
-                    </Card.Body>
                     </Card>
                 </div>
             )

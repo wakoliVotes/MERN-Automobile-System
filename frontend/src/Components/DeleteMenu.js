@@ -38,14 +38,14 @@ class DeleteMenu extends Component {
     else {
       return (
         <div className="App">
-          <h1>Delete Car in Collection:</h1>
+          <h2>Delete Car in Collection:</h2>
           <div className="FormContainer">
             <Form onSubmit={this.handleSubmit}>
               <Form.Group as={Row} controlId="carRegistration">
-                <Form.Label column sm={4}>Registration No.:</Form.Label>
+                <Form.Label column sm={4}>Regn No.:</Form.Label>
                 <Col sm="8">
                   <Form.Control required type="text" placeholder="Enter Registration No." onChange={this.handleRegistrationChange}></Form.Control>
-                  <Form.Text className="text-white">Enter Regn. No to delete a Vehicle</Form.Text>
+                  <Form.Text className="text-white">Enter Registration to Delete</Form.Text>
                 </Col>
               </Form.Group>
               <Button variant="danger" type="submit">

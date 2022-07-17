@@ -116,12 +116,7 @@ button {
   margin: 30px;
   line-height: 5pt;
 }
-.cardpart :nth-child(even){
-  color: black;
-  padding: 8px;
-}
-.cardpart :nth-child(odd){
-  color: blue;
+.cardpart {
   padding: 8px;
 }
 .allcards {
