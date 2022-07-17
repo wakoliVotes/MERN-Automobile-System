@@ -34,7 +34,6 @@ h1, h5 {
 }
 
 body{
-  /* width: fit-content; */
   height: fit-content;
   background: url("../src/Components/img/HondaCivicCoupe2019.jpg") center top no-repeat;
   background-size: cover;
@@ -57,61 +56,26 @@ body{
 }
 #aboutUs p {
   padding: 0 30px;
-  /* text-align: left; */
 }
 .ourservices {
-  margin: 0 300px;
-  justify-content: center;
+  margin: 30px;
   color: black;
-  font-size: 20px;
-}
-
-/*Table Styling*/
-.table-container{
-  position: relative;
-  /* left: 15rem; */
-  border-radius: 10px;
-  /* background-color: rgb(37, 37, 135); */
-  padding: 5px;
-  margin: 50px; 
-  justify-content: center;
-}
-.homeCarList {
-  justify-items: center;
-}
-th, td {
- padding: 10px;
- text-align: center;
-}
-
-th{
   font-size: 18px;
-  color: white;
+  align-items: center;
+  display: block;
+  width: auto;
 }
-
-td{
-  font-size: 16px;
-  color: rgb(250, 250, 250);
-}
-table {
-  width: 50rem;
-}
-
-table, th, td {
-  border: 1px solid rgb(3, 175, 17);
-}
-
-tr:nth-child(even) {
-  background-color: #e81313;
+li:nth-child(even){
+  color: blue;
 }
 
 /*Button*/
 .filterButton{
-  margin-top: 8px;
+  margin: 8px !important;
   border-radius: 8px;
-  color: black;
-  border: 2px solid yellowgreen;
-  background-color: white;
+  color: white !important;
+  padding: 10px !important;
+  background-color: blue;
 }
 .homeProfile {
   color: white;
@@ -137,6 +101,7 @@ button {
   color: blue;
   border: none;
   font-weight: 700;
+  padding: 10px;
 
 }
 .navbar {
@@ -145,11 +110,38 @@ button {
 }
 .carCollection 
 {
-  border-radius: 30px;
-  background: green;
-  width: fit-content;
-  display: block;
+  border-radius: 20px;
+  background: url("../src/Components/img/CadillacCT52020.jpg");
   text-align: center;
-  margin-left: 10%;
-  justify-content: center;
+  margin: 30px;
+  line-height: 5pt;
+}
+.cardpart :nth-child(even){
+  color: black;
+  padding: 8px;
+}
+.cardpart :nth-child(odd){
+  color: blue;
+  padding: 8px;
+}
+.allcards {
+  width: fit-content;
+  align-items: flex-start;
+  padding: 10px;
+  margin: 10px;
+}
+#socials {
+  background: url("../src/Components/img/CadillacCT52020.jpg");
+  align-items: center;
+  right: 0;
+  padding: 50px;
+  margin: 0 50px 0 50px;
+}
+.socials {
+  color: rgb(45, 11, 237);
+  flex-wrap: wrap;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
 }
