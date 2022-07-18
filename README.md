@@ -1,12 +1,13 @@
 ## MERN Automobile System
 **Home Page (Not Signed In):**
-![image](https://user-images.githubusercontent.com/77758884/179292472-b1f8dafd-dd95-4401-a31b-cf82ab6781e2.png)
+![image](https://user-images.githubusercontent.com/77758884/179474812-664e357e-a889-4337-a516-c3f9353242fd.png)
 
 **Authorization Screen:**
 ![image](https://user-images.githubusercontent.com/77758884/179180334-5c9f3fe1-656f-4f74-90f7-9abf26b6e0ee.png)
 
 **Home Page (Signed In):**
-![image](https://user-images.githubusercontent.com/77758884/178914860-6e5ac240-6981-4a52-94e1-e9dc5a4aa848.png)
+![image](https://user-images.githubusercontent.com/77758884/179475105-ba9c9806-752f-4652-9577-e8d811fa25c9.png)
+
 
 **Add Menu:**
 ![image](https://user-images.githubusercontent.com/77758884/178915023-b57eb3d6-cb71-4656-9161-f58518732020.png)
