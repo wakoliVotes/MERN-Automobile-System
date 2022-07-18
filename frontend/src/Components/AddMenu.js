@@ -44,7 +44,7 @@ class AddMenu extends Component {
     this.setState({ year: event.target.value });
   }
   handleImageChange(event) {
-    this.setState({ image: event.target.value })
+    this.setState({ image: event.target.files[0] })
   }
 
   handleSubmit(e) {
